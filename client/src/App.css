@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #e3f2fd, #f1f8e9);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.MuiDrawer-paper {
+  border-radius: 0 20px 20px 0;
+  box-shadow: 2px 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.MuiAppBar-root {
+  backdrop-filter: blur(8px);
+  box-shadow: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+h4, h5, h6 {
+  font-weight: 600;
+}
+
+button, .MuiButton-root {
+  border-radius: 8px !important;
+  text-transform: none !important;
+  font-weight: 500 !important;
+}
