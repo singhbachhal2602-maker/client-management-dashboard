@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: client-management-server
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: MONGO_URI
+        value: MONGO_URI=mongodb+srv://singhbachhal2602_db_user:Harsimran@cluster0.j0mkdft.mongodb.net/client_dashboard?retryWrites=true&w=majority
+      - key: PORT
+        value: 10000
